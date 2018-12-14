@@ -1,6 +1,19 @@
 html,
 body {
-    height: 100%;
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.my-navbar {
+    background-color:green;
+}
+.banner{
+    width: 100%;
+    height: 15%;
 }
 
 .wrap {
